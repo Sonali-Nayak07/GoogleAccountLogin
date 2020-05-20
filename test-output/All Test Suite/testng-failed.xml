@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="/Users/pandat1/Workplace/GoogleAccountLogin(failed)">
+    <classes>
+      <class name="GoogleAccountLogin">
+        <methods>
+          <include name="LoginPage"/>
+        </methods>
+      </class> <!-- GoogleAccountLogin -->
+    </classes>
+  </test> <!-- /Users/pandat1/Workplace/GoogleAccountLogin(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
